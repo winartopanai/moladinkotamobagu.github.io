@@ -1,0 +1,67 @@
+ .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+ .navbar {
+    background-color: white;
+ }
+
+/* jumbotron */
+.jumbotron{
+    margin-top: 51px;
+    padding: 14rem 0rem;
+    background-image: url(../img/bg/markus-spiske-zp6TVB9LERg-unsplash.jpg);
+    background-size: cover;
+}
+
+.jumbotron .display-6 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.jumbotron .lead {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .jumbotron .lead {
+        font-size: 13px;
+    }
+}
+
+
+/* tentang kami */
+.tentang-kami {
+    min-height: 590px;
+}
+.tentang-kami p {
+    font-size: 15px;
+}
+
+
+/* keunggulan */
+.keunggulan {
+    background-image: url(../img/bg/arnaud-padalle-_kRmVAtiF-0-unsplash.jpg);
+    background-size: cover;
+    min-height: 590px;
+}
+
+
+.keunggulan .card {
+    border-radius: 14px;
+}
+
+/* pengajuan */
+.pengajuan {
+    min-height: 590px;
+}
+
+.kontak {
+    min-height: 590px;
+}
